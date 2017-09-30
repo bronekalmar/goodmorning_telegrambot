@@ -1,0 +1,4 @@
+  File "bot_main.py", line 264
+    scheduler.add_job(msg, trigger='cron', hour=06, minute=15)
+                                                 ^
+SyntaxError: invalid token
