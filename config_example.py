@@ -3,8 +3,8 @@ import pymysql
 
 #goodmorning_bot
 token = 'token'
-'
-LIST_OF_ADMINS = ["enter ID of admins"]
+
+LIST_OF_ADMINS = ["enter ID of admin(s)"]
 
 # DB to store chat IDs, wishes and other stuff on HEROKU
 """
@@ -16,8 +16,8 @@ db = pymysql.connect(host='uri',
                              charset="utf8")
 """
 
-# DB to store chat IDs, wishes and other stuff on firstVPS (mybotplatforms.com DB)
-db = pymysql.connect(host='62.109.12.97',
+# DB to store chat IDs, wishes and other stuff on VPS
+db = pymysql.connect(host='host',
                              user='user',
                              password='pass',
                              db='base',
